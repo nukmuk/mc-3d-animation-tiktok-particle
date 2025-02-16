@@ -16,7 +16,7 @@ How the example dance video was created:
 
 # My .shny file format for storing the animations
 
-Every frame starts with an int16 which defines how many particles the frame has. After that comes the particles which are 10 bytes each. After the last particle in the frame the next frame starts with an int16 again. The file uses little endian byte order.
+Every "frame" starts with an int16 which defines how many particles the frame has. After that comes the particles which are 10 bytes each. After the last particle in the frame the next frame starts with an int16 again. The file uses little endian byte order.
 
 Particle format: 3\*2 bytes (position) float16, 1 byte (blue) uint8, 1 byte (green) uint8, 1 byte (red) uint8, 1 byte (pscale) uint8
 total 10bytes per particle
