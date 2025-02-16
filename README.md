@@ -1,8 +1,13 @@
-### (README.md is from v1 of this project)
+Demo of Minecraft plugin:
 
 https://github.com/nukmuk/sheepy/assets/10235825/b6bb5278-4c10-4f04-b4aa-6e9159921d18
 
-How this example dance video was created:
+Web visualizer: https://github.com/nukmuk/sheepy-web-viewer
+
+[![image](https://github.com/user-attachments/assets/08f5e060-dbe3-4492-b59c-ac0f5919db25)](https://sheepy-web-viewer.vercel.app/)
+
+
+How the example dance video was created:
 
 1. Export alembic from MMD using [MMDBridge](https://github.com/uimac/mmdbridge)
 2. Import into Houdini, scatter points on the surface of the mesh, change FPS to 20 since Minecraft runs at 20 ticks/second
